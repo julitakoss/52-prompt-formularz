@@ -7,12 +7,18 @@
     <title>js formularz-walidacja</title>
 </head>
 <body>
-<script src="main.js"></script>
     <form action="/action_page.php">
+        Imię:<br>
+        <input id="f_imie" type="text" name="imie">
+        <br><br>
+        Nazwisko:<br>
+        <input id="f_nazwisko" type="text" name="nazwisko">
+        <br><br>
         Email:<br>
         <input id="f_mail" type="text" name="email">
         <br><br>
   </form> 
-  <button onclick="cojarobie()">Potwierdź!</button>
+  <button onclick="walidacja()">Potwierdź!</button>
+  <script src="main.js"></script>
 </body>
 </html>
